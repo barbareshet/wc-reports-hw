@@ -1,3 +1,12 @@
+:root{
+  --primary:#A85CF9;
+  --secondary:#FF85B3;
+  --accent:#4700D8;
+  --dark-primary:#5534A5;
+  --light-gray:#999999;
+  --dark-gray:#333333;
+}
+
 html,
 body {
   padding: 0;
@@ -13,4 +22,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+.icon{
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+.page-title{
+  padding: 10px 20px;
 }

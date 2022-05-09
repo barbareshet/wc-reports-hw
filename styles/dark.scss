@@ -1,0 +1,48 @@
+.app{
+
+  &.dark{
+    background-color: var(--dark-gray);
+    .sidebar{
+      background-color: var(--dark-gray);
+      .center{
+        ul{
+          li{
+            a{
+              span{
+                color: var(--secondary);
+              }
+            }
+          }
+        }
+      }
+    }
+    main{
+      color: var(--light-gray);
+      table{
+        background-color: var(--dark-gray);
+        tr{
+          th,
+          td{
+            color: white;
+          }
+        }
+      }
+      .table {
+        background-color: var(--dark-gray);
+
+        .tableCell {
+          color: white;
+        }
+      }
+      .datatable{
+        .MuiDataGrid-columnHeader,
+        .MuiDataGrid-cell{
+          color: white;
+          .MuiSvgIcon-root{
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
