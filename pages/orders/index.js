@@ -13,7 +13,7 @@ function OrdersIndex({ordersList}) {
 
 export default OrdersIndex;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
 
     const res = await axios.get(`${process.env.NEXT_PUBLIC_SITE_URL}/api/orders`);
     // console.log(res);
