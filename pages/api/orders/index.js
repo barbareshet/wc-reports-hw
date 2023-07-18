@@ -7,6 +7,7 @@ const api = new WooCommerceRestApi({
     version: "wc/v3"
 });
 
+// console.log(api);
 /**
  * Get Products.
  *
